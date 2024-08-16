@@ -1,0 +1,9 @@
+version: '3'
+
+tasks:
+  create:
+    cmds:
+      - npx zenn new:article
+  preview:
+    cmds:
+      - npx zenn preview 
